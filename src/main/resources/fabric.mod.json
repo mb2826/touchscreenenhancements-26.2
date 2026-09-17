@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "touchscreenenhancements",
+  "version": "1.0.0+26.2",
+  "name": "Touch Screen Enhancements",
+  "description": "Improvements to the touch screen experience. Fixes camera spin on touch screens and adds clickable hotbar + crosshair.",
+  "authors": ["Jab125", "mb2826 (26.2 port)"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/touchscreenenhancements",
+    "issues": "https://github.com/mb2826/touchscreenenhancements-26.2/issues",
+    "sources": "https://github.com/mb2826/touchscreenenhancements-26.2"
+  },
+  "license": "LGPL-3.0-or-later",
+  "icon": "assets/touchscreenenhancements/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.jab125.touchscreenenhancements.client.TouchScreenEnhancementsClient"
+    ],
+    "main": [
+      "dev.jab125.touchscreenenhancements.TouchScreenEnhancements"
+    ],
+    "modmenu": [
+      "dev.jab125.touchscreenenhancements.client.ModMenuCompat"
+    ]
+  },
+  "mixins": [
+    "touchscreenenhancements.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "fabric-api": "*",
+    "minecraft": "~26.2"
+  }
+}
