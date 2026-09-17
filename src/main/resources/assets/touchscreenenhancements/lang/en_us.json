@@ -1,0 +1,21 @@
+{
+  "touchscreen_enhancements": "Touch Screen Enhancements",
+
+  "touchscreen_enhancements.config.title": "Touch Screen Enhancements",
+  "touchscreen_enhancements.config.description": "Configure touch screen features",
+  "touchscreen_enhancements.config.search": "Search...",
+
+  "touchscreen_enhancements.config.enabled": "Mod Enabled",
+  "touchscreen_enhancements.config.enabled.tooltip": "Toggle all touch screen enhancements",
+
+  "touchscreen_enhancements.config.clickable_hotbar": "Clickable Hotbar",
+  "touchscreen_enhancements.config.clickable_hotbar.tooltip": "Select items by clicking on their respective hotbar slots",
+
+  "touchscreen_enhancements.config.clickable_crosshair": "Clickable Crosshair",
+  "touchscreen_enhancements.config.clickable_crosshair.tooltip": "Tap screen center to interact/attack",
+
+  "touchscreen_enhancements.button.open_config": "Settings",
+  "touchscreen_enhancements.button.reset": "Reset",
+
+  "touchscreen_enhancements.message.config_saved": "Settings saved"
+}
