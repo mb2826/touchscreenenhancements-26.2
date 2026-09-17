@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.jab125.touchscreenenhancements.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixinextras": {
+    "minVersion": "0.5.0"
+  },
+  "mixins": [],
+  "client": [
+    "client.GuiMixin",
+    "client.KeyMappingMixin",
+    "client.MinecraftMixin",
+    "client.MouseHandlerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
